@@ -1,0 +1,415 @@
+body {
+    background-color: rgb(24, 22, 22);
+    color: white;
+
+}
+
+.navbar {
+    position: fixed;
+    background-color: rgb(24, 22, 22);
+    height: 50px;
+    width: auto;
+    margin-top: -195px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 20px aqua;
+    table-layout: fixed;
+    display: flex;
+}
+
+
+.navbar ul {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-con {
+    margin-left: 900px;
+    margin-right: 70px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar .nav-con p {
+    margin-top: -1px;
+    margin-left: 4px;
+    margin-right: 4px;
+
+}
+
+.nav-con li a:hover {
+    color: aqua;
+    text-shadow: 0 0 20px aqua;
+
+}
+
+.nav-logo a {
+    position: fixed;
+    padding-bottom: -700px;
+    margin-left: 60px;
+    margin-top: -185px;
+}
+
+.nav-logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.nav-logo a:hover {
+    color: aqua;
+    text-shadow: 0 0 20px aqua;
+}
+
+
+
+.home-txt h1 {
+    color: aqua;
+    text-shadow: 0 0 20px aqua;
+    margin-top: 195px;
+    margin-left: 70px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.home-txt p {
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 70px;
+    font-family: sans-serif;
+    text-align: left;
+
+}
+
+.home-button {
+    display: inline-block;
+    background-color: transparent;
+    /* Transparent background */
+    border: 2px solid aqua;
+    /* Aqua border */
+    color: aqua;
+    /* Aqua text color */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    font-family: sans-serif;
+    /* Match the font family */
+}
+
+
+.home-button {
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid aqua;
+    color: aqua;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    font-family: sans-serif;
+    position: relative;
+    margin-left: 65px;
+}
+
+.home-button a {
+    color: inherit;
+    /* Inherit the color */
+    text-decoration: none;
+}
+
+.home-button:hover {
+    background-color: aqua;
+    /* Aqua background color */
+    color: white;
+    /* White text color */
+    box-shadow: 0 0 9px 1px aqua;
+    /* Glow effect */
+}
+
+
+.home-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    margin-left: 860px;
+    margin-top: -250px;
+    border: 1px;
+    background-color: aqua;
+    box-shadow: 0 0 10px 1px rgb(21, 211, 211);
+
+}
+
+.home-img img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.home-img:hover img {
+    transform: scale(1.2);
+}
+
+.home-img::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+
+.home-img:hover::before {
+    opacity: 1;
+}
+
+.hr-div {
+    margin-top: 200px;
+}
+
+.hr-div2 {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-shadow: 0 0 10px color(aqua);
+}
+
+.hr-div2 hr {
+    border: none;
+    height: 1px;
+    background-color: aqua;
+    box-shadow: 0 0 10px 1px rgb(21, 211, 211);
+}
+
+.about {
+    padding-top: 640px;
+}
+
+.about h1 {
+    text-decoration: none;
+    text-align: center;
+    margin-top: -600px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* About start  */
+/* Frame 1 start */
+/* CSS for the frame */
+/* CSS for both frames */
+/* CSS for both frames */
+.frame1,
+.box1 {
+    margin-left: 50px;
+    margin-bottom: 200px;
+    width: 500px;
+    /* Adjust the width as needed */
+    height: 200px;
+    /* Adjust the height as needed */
+    border: 10px solid #333;
+    border-radius: 20px;
+    /* Border color and thickness */
+    padding: 20px;
+    /* Spacing inside the frame */
+    position: relative;
+    /* Needed for absolute positioning of pseudo-elements */
+    overflow: hidden;
+    /* Hide overflowing content */
+    display: inline-block;
+    /* Display frames inline */
+    margin-right: 40px;
+    /* Adjust spacing between frames */
+    margin-top: -800px;
+}
+
+/* Rest of your CSS remains the same */
+
+/* CSS for the animated border */
+.frame1::before,
+.frame1::after,
+.box1::before,
+.box1::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    animation: animateBorder 4s infinite linear;
+}
+
+.frame1::before,
+.box1::before {
+    top: 0;
+    left: 0;
+    border-top-color: aqua;
+}
+
+.frame1::after,
+.box1::after {
+    bottom: 0;
+    right: 0;
+    border-bottom-color: aqua;
+}
+
+/* Keyframe animation for the border */
+@keyframes animateBorder {
+    0% {
+        width: 0;
+        height: 0;
+    }
+
+    50% {
+        width: 100%;
+        height: 0;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Styles for the content inside the frame */
+.frame1 h1,
+.box1 h1 {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.frame1 p,
+.box1 p {
+    font-family: Arial, sans-serif;
+    color: #cfcccc;
+}
+
+
+
+/* Frame 2 / Box 2 start*/
+/* Frame 2 / Box 2 start*/
+/* Frame 2 / Box 2 start*/
+/* Frame 2 / Box 2 start*/
+
+
+.frame2,
+.box2 {
+    margin-left: 50px;
+    margin-bottom: 100px;
+    width: 500px;
+    /* Adjust the width as needed */
+    height: 200px;
+    /* Adjust the height as needed */
+    border: 10px solid #333;
+    border-radius: 20px;
+    /* Border color and thickness */
+    padding: 20px;
+    /* Spacing inside the frame */
+    position: relative;
+    /* Needed for absolute positioning of pseudo-elements */
+    overflow: hidden;
+    /* Hide overflowing content */
+    display: inline-block;
+    /* Display frames inline */
+    margin-right: 40px;
+    /* Adjust spacing between frames */
+    margin-top: -100px;
+}
+
+/* Rest of your CSS remains the same */
+
+/* CSS for the animated border */
+.frame2::before,
+.frame2::after,
+.box2::before,
+.box2::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    animation: animateBorder 4s infinite linear;
+}
+
+.frame2::before,
+.box2::before {
+    top: 0;
+    left: 0;
+    border-top-color: aqua;
+}
+
+.frame2::after,
+.box2::after {
+    bottom: 0;
+    right: 0;
+    border-bottom-color: aqua;
+}
+
+/* Keyframe animation for the border */
+@keyframes animateBorder {
+    0% {
+        width: 0;
+        height: 0;
+    }
+
+    50% {
+        width: 100%;
+        height: 0;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Styles for the content inside the frame */
+.frame2 h1,
+.box2 h1 {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.frame2 p,
+.box2 p {
+    font-family: Arial, sans-serif;
+    color: #cfcccc;
+}
+
+
+
+/* Frame 2 / Box 2 end*/
+/* Frame 2 / Box 2 end*/
+/* Frame 2 / Box 2 end*/
+/* Frame 2 / Box 2 end*/
